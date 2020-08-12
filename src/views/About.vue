@@ -63,11 +63,10 @@
         topics: [
           {name: "Our Vision", image: require("@/assets/farm-workers.jpg"), text: "Text about the Vision", dialog: false},
           {name: "Our Mission", image: require("@/assets/mill-workers.jpg"), text: "Like the Songhai Centre in the Republic of Benin, from which PASE was inspired, PASE seeks to promote dynamic integrated human development of women and young farmers through the use of local resources. This will be done by simultaneously spurring agricultural production, processing, mechanisation and extension services, and building on indigenous knowledge. This will create ownership of the development process, and of the technical and external technologies, among the people and communities in which PASE operates. PASE will also seek to inspire community-spirited individuals to venture into social enterprises as a sustainable way of empowering the poor and marginalised.", dialog: false},
-          {name: "Processes", image: require("@/assets/weighing-ffb.jpg"), text: "Text about the processes performed", dialog: false},
+          {name: "Team", image: require("@/assets/weighing-ffb.jpg"), text: "Text about the processes performed", dialog: false},
           {name: "Organisation and Board", image: require("@/assets/team.jpg"), text: "Text about the organisation and the board", dialog: false},
-          {name: "Mill", image: require("@/assets/mill.jpg"), text: "Text describing the mill", dialog: false},
-          {name: "Plans", image: require("@/assets/cracked-palm.jpg"), text: "Text describing furture plans", dialog: false},
           {name: "History", image: require("@/assets/threshing-ffb.jpg"), text: "Text describing the history", dialog: false},
+          {name: "Plans", image: require("@/assets/cracked-palm.jpg"), text: "Text describing furture plans", dialog: false},
         ],
       }
     },
