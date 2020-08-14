@@ -95,20 +95,6 @@
           </v-col>
         </v-row>
       </v-parallax>
-
-      <v-row justify="center">
-        <v-col align="center" cols="5">
-          <v-card href="https://www.kimdogbe.com" height="200" color="#42934c">
-            <h2>Our Vision</h2>
-          </v-card>
-        </v-col>
-
-        <v-col align="center" cols="5">
-          <v-card href="https://www.kimdogbe.com" height="200" color="#42934c">
-            <h2>Our Mission</h2>
-          </v-card>
-        </v-col>
-      </v-row>
   </v-container>
 </template>
 

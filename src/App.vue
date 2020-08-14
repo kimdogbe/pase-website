@@ -1,13 +1,20 @@
 <template>
   <v-app id ="inspire">
-    <v-app-bar
-      color="#42934c"
-      flat
+
+    <v-app-bar color="transparent" absolute flat dark>
+      <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+    </v-app-bar>
+
+    <v-navigation-drawer
+      app
+      clipped
       dark
-      height="100"
-      max-height="100"
+      v-model="drawer"
+      color="#42934c"
+      width="240"
     >
-      <div class="d-flex align-center">
+
+    <div class="d-flex align-center">
         <v-img
           alt="PASE Logo"
           contain
@@ -16,44 +23,48 @@
         />
       </div>
 
-      <v-toolbar-items>
-        <v-btn to="/" rounded text>
-          Home
-        </v-btn>
-        <v-btn to="/about" rounded text>
-          About
-        </v-btn>
-        <v-btn to="/farmers" rounded text>
-          Farmers and Community
-        </v-btn>
-        <v-btn to="/pase-farm" rounded text>
-          PASE Farm
-        </v-btn>
-        <v-btn to="/pase-mill" rounded text>
-          PASE Mill
-        </v-btn>
-        <v-btn to="/partners-links" rounded text>
-          Partners and Links
-        </v-btn>
-        <v-btn to="/research" rounded text>
-          Research
-        </v-btn>
-        <v-btn to="/contact-us" rounded text>
-          Contact Us
-        </v-btn>
-      </v-toolbar-items>
+      <v-list
+        dense
+        nav
+        class="py-0"
+      >
+        <v-list-item
+          v-for="heading in headings" 
+          :key="heading.name"
+          :to="heading.link">
+          {{ heading.name }}
+        </v-list-item>
+      </v-list>
       
-    </v-app-bar>
 
-    <router-view :key="$route.path"/>
+    </v-navigation-drawer>
 
-    <v-footer
-      color="#9db4c0"
-      app
-      absolute
-    >
-      <span class="white--text">&copy; Kwame Dogbe - 2020</span>
-    </v-footer>
+    <v-main>
+
+      <router-view :key="$route.path"/>
+    </v-main>
+
+    
   </v-app>
 </template>
+
+<script>
+export default {
+  data(){
+    return{
+      headings: [
+        {name: 'Home', link: '/'},
+        {name: 'About', link: '/about'},
+        {name: 'Farmers and Community', link: '/farmers'},
+        {name: 'PASE Farm', link: '/pase-farm'},
+        {name: 'PASE Mill', link: '/pase-mill'},
+        {name: 'Partners and Links', link: '/partners-links'},
+        {name: 'Research', link: '/research'},
+        {name: 'Contact Us', link: '/contact-us'}
+      ],
+      drawer: true,
+    }
+  },
+}
+</script>
 

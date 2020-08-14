@@ -1,5 +1,5 @@
 <template>
-  <v-container mb-6>
+  <v-container>
     <v-row>
       <h2>Farmer Support Services</h2>
       <p>The Farmer Support Services unit of PASE is responsible 
