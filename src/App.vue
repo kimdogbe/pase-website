@@ -32,7 +32,9 @@
           v-for="heading in headings" 
           :key="heading.name"
           :to="heading.link">
+          <h4>
           {{ heading.name }}
+          </h4>
         </v-list-item>
       </v-list>
       
