@@ -11,6 +11,13 @@
           <li>an extension service centre for making the results from research centres and institutions of higher learning across the country directly available to farmers.</li>
           <li>a renewable energy centre aiming to utilize organic waste to produce bioenergy for local domestic and commercial use.</li>
         </ul>
+
+        <!-- TODO: add messy info image here -->
+        <v-img src=""></v-img>
+
+        <p class="mt-4">
+          If you are interested in finding out more about our exciting work in these areas, please get in touch: <a href="mailto:pase@pdaghana.com">pase@pdaghana.com</a>
+        </p>
       </v-col>
     </v-row>
   </v-container>

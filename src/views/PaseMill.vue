@@ -2,30 +2,40 @@
   <v-container>
     <v-row>
       <v-col cols="12">
-        <h2>Production Centre</h2>
+        <h2>Artisanal mill</h2>
         <p>
-          PASE will be a production centre for sustainable, inexpensive and 
-          environmentally sound agricultural production, starting with the 
-          manufacture of crude palm oil. Soon after, it plans to use the 
-          by-products to produce crude palm kernel oil and palm kernel cake. 
-          The latter will be used to feed animals that it plans to keep and 
-          the surplus, for sale as animal feed. Five years into production, 
-          the company also hopes to produce refined palm oil for human 
-          consumption from the crude palm oil. It could also venture into soap 
-          making, using the palm kernel oil.
+          Going forward, we plan to set up a seedling market to ensure 
+          that any interested farmer can purchase quality seedlings at 
+          an affordable price, and an agricultural input shop to help 
+          farmers secure the inputs they need conveniently and at affordable prices.
         </p>
+      </v-col>
+    </v-row>
 
+    <v-row>
+      <v-col cols="12">
+        <h2>High quality crude palm oil (CPO)</h2>
         <p>
-          The company’s strategy will be to expand its palm oil production 
-          capabilities to serve the communities surrounding Mankranso. Our 
-          ultimate objective is to enter the international market. For this 
-          reason, the company will expand its production plant gradually, 
-          and establish a niche within the community as the most reliable 
-          company. It is already in discussion with farmers in the area to 
-          come into contractual agreement where PASE will take over the 
-          management of their farms so as to secure the produce. In addition, 
-          PASE will also acquire more plantation where eventually 50% of raw 
-          materials could be sourced from the company’s own estates.
+          The oil from our artisanal mill has been independently tested by the 
+          laboratories of both Juaben Oil Mills and Avnash Industries Ghana 
+          Ltd. and shown to contain fatty acids well below the level needed 
+          to meet international standards.
+        </p>
+      </v-col>
+    </v-row>
+
+    <v-row>
+      <v-col cols="12">
+        <h2>Made in Ghana</h2>
+        <p>
+          In 20xx we began to partner with Solidaridad to construct a much larger 
+          semi-industrial mill in Mankranso with the capacity to process 3 
+          tonnes per hour.  Our engineer worked the Solidaridad technical 
+          consultant to design our own bespoke machines. These have mostly 
+          been fabricated locally by local welders, demonstrating the potential 
+          for us to manufacture our own good quality industrial equipment in Ghana. 
+          We hope to inspire young engineers at Ghanaian tertiary institutions 
+          and beyond to do the same.
         </p>
       </v-col>
     </v-row>
