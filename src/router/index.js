@@ -60,6 +60,43 @@ Vue.use(VueRouter)
     component: () => import(/* webpackChunkName: "farmers" */ '../views/FarmersAndCommunity.vue')
   },
   {
+    path: '/nursery',
+    name: 'Community Nursery',
+    component: () => import(/* webpackChunkName: "nursery" */ '../views/farmersAndCommunity/CommunityNursery.vue'),
+  },
+  {
+    path: '/vlsa',
+    name: 'VLSA Micro-Fund',
+    component: () => import(/* webpackChunkName: "vlsa" */ '../views/farmersAndCommunity/VSLAMicroFund.vue'),
+  },
+  {
+    path: '/fss',
+    name: 'Farmer Support Services',
+    component: () => import(/* webpackChunkName: "fss" */ '../views/farmersAndCommunity/FarmerSupportServices.vue'),
+  },
+  {
+    path: '/training',
+    name: 'Training Farmers',
+    component: () => import(/* webpackChunkName: "training" */ '../views/farmersAndCommunity/TrainingFarmers.vue'),
+  },
+  {
+    path: '/sfm',
+    name: 'Smallholder Farmer Mobilazation',
+    component: () => import(/* webpackChunkName: "sfm" */ '../views/farmersAndCommunity/SmallholderFarmerMobilazation.vue'),
+  },
+  {
+    path: '/whatdev',
+    name: 'What Development?',
+    component: () => import(/* webpackChunkName: "whatDev" */ '../views/farmersAndCommunity/WhatDev.vue'),
+  },
+  {
+    path: '/youth',
+    name: 'Youth Employment',
+    component: () => import(/* webpackChunkName: "youth" */ '../views/farmersAndCommunity/YouthEmployment.vue'),
+  },
+
+
+  {
     path: '/pase-farm',
     name: 'PASE farm',
     component: () => import(/* webpackChunkName: "farm" */ '../views/PaseFarm.vue')
