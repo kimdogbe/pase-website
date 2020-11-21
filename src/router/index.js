@@ -54,6 +54,8 @@ Vue.use(VueRouter)
     name: 'Organisation',
     component: () => import(/* webpackChunkName: "organisation" */ '../views/about/Organisation.vue'),
   },
+
+  
   {
     path: '/farmers',
     name: 'Farmers and Community',
@@ -88,11 +90,6 @@ Vue.use(VueRouter)
     path: '/whatdev',
     name: 'What Development?',
     component: () => import(/* webpackChunkName: "whatDev" */ '../views/farmersAndCommunity/WhatDev.vue'),
-  },
-  {
-    path: '/youth',
-    name: 'Youth Employment',
-    component: () => import(/* webpackChunkName: "youth" */ '../views/farmersAndCommunity/YouthEmployment.vue'),
   },
 
 

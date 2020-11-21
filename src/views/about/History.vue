@@ -1,5 +1,24 @@
 <template>
-  <v-container>
+  <v-container fluid class="pa-0">
+    <v-parallax
+        height="500"
+        dark
+        src="@/assets/threshing-ffb.jpg"
+      >
+        <v-row
+          align="center"
+          justify="center"
+        >
+          <v-col class="text-center" cols="12">
+            <v-overlay value="true" absolute>
+              <!-- <h1 class="display-1 mb-4">Text description here</h1>
+              <h4 class="subheading">Text description here</h4> -->
+            </v-overlay>
+          </v-col>
+        </v-row>
+      </v-parallax>
+    
+
     <v-row>
       <v-col cols="12">
         <h2>History</h2>

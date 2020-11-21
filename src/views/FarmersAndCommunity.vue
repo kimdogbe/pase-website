@@ -47,7 +47,6 @@ export default {
         {name: 'Training Farmers', image: require("@/assets/training.png")},
         {name: 'Smallholder Farmer Mobilazation', image: require("@/assets/farm-workers.jpg")},
         {name: 'What Development?', image: require("@/assets/what-dev.png")},
-        {name: 'Youth Employment', image: require("@/assets/pase-staff.png")},
       ]
     }
   }
